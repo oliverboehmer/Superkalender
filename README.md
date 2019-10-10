@@ -1,2 +1,4 @@
 # Superkalender
-# Hallo Gruppe, das ist das >Readme
+# DIE GRUPPE IST DAS GEILSTE
+# PORSCHE CAYMAN S
+# 5000€
