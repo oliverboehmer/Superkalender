@@ -1,8 +1,12 @@
-/* Bordered form */
-form {
-  border: 3px solid #f1f1f1;
+body{
+  font-family: 'Josefin Sans', sans-serif;
 }
-
+/* Bordered form */
+.modal{
+  z-index: 1;
+  background-color: white;
+  height: 100vh;
+}
 /* Full-width inputs */
 input[type=text], input[type=password] {
   width: 100%;
@@ -12,10 +16,14 @@ input[type=text], input[type=password] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-
+.modal-content{
+  padding: 80px;
+    max-width: 400px;
+    margin: 0 auto;
+}
 /* Set a style for all buttons */
 button {
-  background-color: #4CAF50;
+  background-color: #f05855;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -33,15 +41,8 @@ button:hover {
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #f44336;
+  background-color: #f05855;
 }
-
-/* Center the avatar image inside this container */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-}
-
 /* Avatar image */
 img.avatar {
   width: 40%;
