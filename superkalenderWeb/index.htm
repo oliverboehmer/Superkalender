@@ -8,8 +8,8 @@
       <link rel="stylesheet" href="style.css">
       <link href="login.css" rel="stylesheet">
       <link rel="icon"
-        //type="image/png"
-        //href="favicon.ico" />
+        type="image/png"
+        href="favicon.ico" />
         <script>
         var modal = document.getElementById('id01');
 
@@ -135,6 +135,16 @@
     <script  src="function.js"></script>
     <script  src="bridge.js"></script>
 
+
+    <script>
+    var modal = document.getElementById('id01');
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
 </body>
 
 </html>
