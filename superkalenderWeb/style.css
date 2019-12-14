@@ -143,10 +143,11 @@ body, html {
 	width: 3%;
     float: left;
     height: 100%;
-    background-color: rgba(56,86,117,0.6);
+    background-color: rgba(0,0,0,0.2);
 }
 .main .showDate:hover {
 	cursor: pointer;
+	background-color: rgba(0,0,0,0.1);
 }
 .main .showDate.is-active .fa-angle-double-right:before {
 	content: "\f100";
