@@ -36,7 +36,7 @@ function getNextMonth() {
 	monthDirection++;
 	var current;
 	var now = new Date();
-	if (now.getMonth() == 11) {
+	if (current == 11) {
 		current = new Date(now.getFullYear() + monthDirection, 0, 1);
 	} else {
 		current = new Date(now.getFullYear(), now.getMonth() + monthDirection, 1);
