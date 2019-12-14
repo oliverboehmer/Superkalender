@@ -150,10 +150,11 @@ body, html {
 }
 .main .showDate.is-active .fa-angle-double-right:before {
 	content: "\f100";
+	position: absolute;
 }
 .main .showDate .fa{
 	top: 50%;
-    position: absolute;
+    position: sticky;
     padding-left: 4px;
     color: white;
 }
