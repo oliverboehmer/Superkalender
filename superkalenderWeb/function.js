@@ -151,6 +151,7 @@ initCalender(getMonth(new Date()));
 var clickCounter = 0;
 $(".fa-angle-double-right").click(function () {
 	$(".right-wrapper").toggleClass("is-active");
+	$(".sideb").toggleClass("is-active");
 	$(this).toggleClass("is-active");
 });
 
