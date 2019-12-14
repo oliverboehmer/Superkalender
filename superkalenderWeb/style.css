@@ -64,10 +64,22 @@ body, html {
 	z-index: 9;
 }
 .sideb.is-active{
-	width: 100% !important;
+	width: 97% !important;
 	transition: ease-in-out 1s;
 }
-.main .sideb,
+.main .sideb{
+	background-color: white;
+  width: 47%;
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+	transition: ease-in-out 1s;
+}
 .main .right-wrapper {
   background-color: white;
   width: 50%;
@@ -127,10 +139,23 @@ body, html {
 .main .right-wrapper .month {
   font-size: 2.5em;
 }
-.main .sideb .showDate {
-  color: white;
-  text-align: right;
-  width: 100%;
+.main .showDate {
+	width: 3%;
+    float: left;
+    height: 100%;
+    background-color: rgba(56,86,117,0.6);
+}
+.main .showDate:hover {
+	cursor: pointer;
+}
+.main .showDate.is-active .fa-angle-double-right:before {
+	content: "\f100";
+}
+.main .showDate .fa{
+	top: 50%;
+    position: absolute;
+    padding-left: 4px;
+    color: white;
 }
 .main .sideb .showDate i {
   cursor: pointer;
