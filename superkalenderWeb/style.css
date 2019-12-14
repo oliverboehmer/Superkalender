@@ -55,8 +55,10 @@ body, html {
   transform-style: preserve-3d;
 }
 .main.is-rotated-left {
+	transform: translate(-50%, -50%) rotateY(-4deg);
 }
 .main.is-rotated-right {
+	transform: translate(-50%, -50%) rotateY(4deg);
 }
 .sideb{
 	z-index: 9;
@@ -132,7 +134,7 @@ body, html {
 }
 .main .sideb .showDate i {
   cursor: pointer;
-  background: #385675;
+	background: rgba(56,86,117,0.6);
   border-radius: 4px;
   padding: 8px 12px;
   transform: scale(1);
